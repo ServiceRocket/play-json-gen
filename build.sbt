@@ -5,7 +5,6 @@ val ScalacheckVersion = "1.13.5"
 val PlayJsonVersion = "2.5.18"
 val ScalaTestVersion = "3.0.4"
 
-
 resolvers := Resolver
   .withDefaultResolvers(
     mavenCentral = true,
@@ -28,7 +27,7 @@ publishTo := version { (v: String) =>
 }.value
 
 name := "play-json-gen"
-version := "0.1.0"
+version := "0.1.1-SNAPSHOT"
 description := "Play Json ScalaCheck Generators"
 organization := "com.servicerocket"
 organizationName := "ServiceRocket"
