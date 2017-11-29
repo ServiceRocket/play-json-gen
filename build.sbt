@@ -28,7 +28,7 @@ publishTo := version { (v: String) =>
 }.value
 
 name := "play-json-gen"
-version := "0.1.0-SNAPSHOT"
+version := "0.1.0"
 description := "Play Json ScalaCheck Generators"
 organization := "com.servicerocket"
 organizationName := "ServiceRocket"
