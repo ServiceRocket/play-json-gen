@@ -5,6 +5,7 @@ val ScalacheckVersion = "1.13.5"
 val PlayJsonVersion = "2.6.8"
 val ScalaTestVersion = "3.0.4"
 
+crossScalaVersions := Seq("2.11.12", "2.12.4")
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 publishMavenStyle := true
 publishTo := version { (v: String) =>
