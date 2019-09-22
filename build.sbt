@@ -1,9 +1,9 @@
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8", "-Xlint")
 scalacOptions ++= Seq("-feature", "-target:jvm-1.8")
-scalaVersion := "2.12.4"
-val ScalacheckVersion = "1.13.5"
-val PlayJsonVersion = "2.6.8"
-val ScalaTestVersion = "3.0.4"
+scalaVersion := "2.13.1"
+val ScalacheckVersion = "1.14.1"
+val PlayJsonVersion = "2.7.4"
+val ScalaTestVersion = "3.0.8"
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 publishMavenStyle := true
