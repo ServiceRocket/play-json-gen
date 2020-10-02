@@ -1,6 +1,6 @@
 Play Json ScalaCheckGenerators
 ==============================
-[![Build Status](https://travis-ci.org/ServiceRocket/play-json-gen.svg?branch=master)](https://travis-ci.org/ServiceRocket/play-json-gen)
+[![Build Status](https://travis-ci.org/servicerocket-labs/play-json-gen.svg?branch=master)](https://travis-ci.org/servicerocket-labs/play-json-gen)
 
 ScalaCheck generators for Play Json.
 ### Usage
@@ -26,4 +26,4 @@ JsonGen.jsStringGen
 | -------------- | -------------- | --------- | --------------- |
 | `0.1.0`        | `1.13.5`       | `2.5.18`  | `2.11`          |
 | `0.1.1`        | `1.13.5`       | `2.6.8`   | `2.11`          |
-| `0.1.2`        | `1.14.1`       | `2.7.4`   | `2.13`, `2.12`, `2.11` |
+| `0.1.2`        | `1.14.3`       | `2.7.4`   | `2.13`, `2.12`, `2.11` |
